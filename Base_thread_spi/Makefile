@@ -1,8 +1,8 @@
 APPLICATION=helloworld
 
 BOARD ?= native
-USEMODULE += shell shell_commands ps xtimer periph_gpio_irq  
-RIOTBASE ?= $(CURDIR)/../../RIOT
+USEMODULE += shell shell_commands ps xtimer periph_gpio_irq  periph_spi  printf_float
+RIOTBASE ?= $(CURDIR)/../../../RIOT
 
 DEVELHELP ?= 1
 

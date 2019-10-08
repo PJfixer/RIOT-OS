@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/stm32_common_periph/timer.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/stm32_common_periph/timer.o: \
  /home/etudiant/riot/RIOT/cpu/stm32_common/periph/timer.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h \
  /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib-nano/newlib.h \
@@ -61,7 +61,7 @@
  /home/etudiant/riot/RIOT/boards/common/stm32/include/cfg_rtt_default.h \
  /home/etudiant/riot/RIOT/boards/common/stm32/include/cfg_timer_tim2.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h:
 

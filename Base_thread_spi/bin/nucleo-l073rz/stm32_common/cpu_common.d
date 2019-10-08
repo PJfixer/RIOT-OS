@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/stm32_common/cpu_common.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/stm32_common/cpu_common.o: \
  /home/etudiant/riot/RIOT/cpu/stm32_common/cpu_common.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/boards/nucleo-l073rz/include/periph_conf.h \
  /home/etudiant/riot/RIOT/cpu/stm32l0/include/periph_cpu.h \
  /home/etudiant/riot/RIOT/cpu/stm32_common/include/periph_cpu_common.h \
@@ -61,7 +61,7 @@
  /home/etudiant/riot/RIOT/core/include/debug.h \
  /home/etudiant/riot/RIOT/core/include/thread.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/boards/nucleo-l073rz/include/periph_conf.h:
 

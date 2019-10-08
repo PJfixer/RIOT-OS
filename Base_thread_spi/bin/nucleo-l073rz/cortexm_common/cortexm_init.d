@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/cortexm_common/cortexm_init.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/cortexm_common/cortexm_init.o: \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/cortexm_init.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h \
  /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib-nano/newlib.h \
@@ -53,7 +53,7 @@
  /home/etudiant/riot/RIOT/core/include/msg.h \
  /home/etudiant/riot/RIOT/core/include/sched.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h:
 

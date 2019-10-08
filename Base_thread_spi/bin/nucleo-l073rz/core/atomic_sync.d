@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/core/atomic_sync.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/core/atomic_sync.o: \
  /home/etudiant/riot/RIOT/core/atomic_sync.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h \
  /usr/arm-none-eabi/include/stdlib.h \
  /usr/arm-none-eabi/include/machine/ieeefp.h \
@@ -27,7 +27,7 @@
  /usr/arm-none-eabi/include/sys/string.h \
  /home/etudiant/riot/RIOT/core/include/irq.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h:
 

@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/core/assert.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/core/assert.o: \
  /home/etudiant/riot/RIOT/core/assert.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib-nano/newlib.h \
  /usr/arm-none-eabi/include/_newlib_version.h \
@@ -25,7 +25,7 @@
  /home/etudiant/riot/RIOT/core/include/panic.h \
  /home/etudiant/riot/RIOT/core/include/kernel_defines.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/arm-none-eabi/include/stdio.h:
 

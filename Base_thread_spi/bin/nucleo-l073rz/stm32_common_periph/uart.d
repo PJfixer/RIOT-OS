@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/stm32_common_periph/uart.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/stm32_common_periph/uart.o: \
  /home/etudiant/riot/RIOT/cpu/stm32_common/periph/uart.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h \
  /usr/arm-none-eabi/include/stdio.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib-nano/newlib.h \
@@ -64,7 +64,7 @@
  /home/etudiant/riot/RIOT/drivers/include/periph/gpio.h \
  /home/etudiant/riot/RIOT/sys/include/pm_layered.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h:
 

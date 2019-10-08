@@ -58,11 +58,14 @@ return -1;
 void myCallback(void *arg)
 {
 	(void)arg;
-	msg_t ISRmsg;
+	/*msg_t ISRmsg;
 	ISRmsg.type = 2;
 	ISRmsg.content.value = 1;
-	msg_send(&ISRmsg,wait_pid);
+	msg_send(&ISRmsg,wait_pid);*/
 }
+
+
+ 
 
 
 int max31855_init(spi_t bus,spi_cs_t cs)
@@ -72,11 +75,25 @@ int max31855_init(spi_t bus,spi_cs_t cs)
 }
 int max31855_readtemp(spi_t bus,spi_cs_t cs)
 {
+
+ uint8_t raw[4];
+
 spi_acquire (bus,cs,SPI_MODE_0,SPI_CLK_100KHZ );
-uint8_t data = spi_transfer_byte(bus,cs,true,0x00);
-uint8_t data2 = spi_transfer_byte(bus,cs,false,0x00);
-printf("data : %d \n",data);
-printf("data2 : %d \n",data2);
+raw[0] = spi_transfer_byte(bus,cs,true,0x00);
+raw[1] = spi_transfer_byte(bus,cs,true,0x00);
+raw[2] = spi_transfer_byte(bus,cs,true,0x00);
+raw[3] = spi_transfer_byte(bus,cs,false,0x00);
+//printf("bip ! \n");
+//printf("raw[0] %d \n",raw[0]);
+//printf("raw[1] %d \n",raw[1]);
+//printf("raw[2] %d \n",raw[2]);
+//printf("raw[3] %d \n",raw[3]); 
+uint16_t K = ((raw[0]<<8)|raw[1]);
+K = (K>>2);
+
+//printf("K : %d",K);
+printf("Temp : %f °C \n",((float)K)*0.25);
+ 
 spi_release(bus);
 return 0;
 
@@ -87,12 +104,13 @@ void *waiting_thread(void *arg)
 {
 	(void)arg;
 	wait_pid =  thread_getpid();
-	msg_t m;
+	//msg_t m;
 
 	while(1)
 	{
-		msg_receive(&m);
-		max31855_readtemp(SPI_DEV(0),GPIO_PIN(PORT_A,5));
+		//msg_receive(&m);
+		max31855_readtemp(SPI_DEV(0),GPIO_PIN(PORT_A,4));
+		xtimer_sleep(1);
 	}
 
 		return NULL;
@@ -102,8 +120,9 @@ char waiting_thread_stack[THREAD_STACKSIZE_MAIN];
 int main(void)
 {
 	
-	spi_init_cs(SPI_DEV(0),GPIO_PIN(PORT_A,5));
+	spi_init_cs(SPI_DEV(0),GPIO_PIN(PORT_A,4));
 	gpio_init_int (PC13,GPIO_IN,GPIO_FALLING,myCallback,NULL);
+	gpio_init(GPIO_PIN(PORT_A,4),GPIO_OUT);
 	thread_create(waiting_thread_stack, sizeof(waiting_thread_stack),THREAD_PRIORITY_MAIN+5, THREAD_CREATE_STACKTEST,waiting_thread, NULL, "waiting_thread");
 	printf("First IOT hello wolrd \r\n");
 	static const shell_command_t shell_commands[] = {{"target","display board", target_handler },{"custom","custom commands", custom_handler },{"LED0","set led0 state", led0_handler },{ NULL, NULL, NULL }};

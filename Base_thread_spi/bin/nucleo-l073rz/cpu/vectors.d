@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/cpu/vectors.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/cpu/vectors.o: \
  /home/etudiant/riot/RIOT/cpu/stm32l0/vectors.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vectors_cortexm.h \
  /home/etudiant/riot/RIOT/cpu/stm32l0/include/cpu_conf.h \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
@@ -18,7 +18,7 @@
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
  /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vectors_cortexm.h:
 

@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/periph_common/timer.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/periph_common/timer.o: \
  /home/etudiant/riot/RIOT/drivers/periph_common/timer.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/drivers/include/periph/timer.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/limits.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/syslimits.h \
@@ -61,7 +61,7 @@
  /home/etudiant/riot/RIOT/boards/common/stm32/include/cfg_rtt_default.h \
  /home/etudiant/riot/RIOT/boards/common/stm32/include/cfg_timer_tim2.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/drivers/include/periph/timer.h:
 

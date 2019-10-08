@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/stdio_uart/stdio_uart.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/stdio_uart/stdio_uart.o: \
  /home/etudiant/riot/RIOT/sys/stdio_uart/stdio_uart.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/arm-none-eabi/include/errno.h \
  /usr/arm-none-eabi/include/sys/errno.h \
  /usr/arm-none-eabi/include/sys/reent.h \
@@ -81,7 +81,7 @@
  /home/etudiant/riot/RIOT/core/include/debug.h \
  /home/etudiant/riot/RIOT/core/include/thread.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/arm-none-eabi/include/errno.h:
 

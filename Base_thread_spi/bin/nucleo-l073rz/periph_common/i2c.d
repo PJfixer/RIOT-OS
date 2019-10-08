@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/periph_common/i2c.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/periph_common/i2c.o: \
  /home/etudiant/riot/RIOT/drivers/periph_common/i2c.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/arm-none-eabi/include/errno.h \
  /usr/arm-none-eabi/include/sys/errno.h \
  /usr/arm-none-eabi/include/sys/reent.h \
@@ -72,7 +72,7 @@
  /home/etudiant/riot/RIOT/drivers/include/periph/dev_enums.h \
  /home/etudiant/riot/RIOT/core/include/byteorder.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/arm-none-eabi/include/errno.h:
 

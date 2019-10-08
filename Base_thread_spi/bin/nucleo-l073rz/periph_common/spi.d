@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/periph_common/spi.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/periph_common/spi.o: \
  /home/etudiant/riot/RIOT/drivers/periph_common/spi.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h \
  /home/etudiant/riot/RIOT/boards/common/nucleo64/include/board.h \
  /home/etudiant/riot/RIOT/boards/common/nucleo/include/board_nucleo.h \
@@ -68,7 +68,7 @@
  /home/etudiant/riot/RIOT/drivers/include/periph/gpio.h \
  /home/etudiant/riot/RIOT/drivers/include/periph/spi.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h:
 

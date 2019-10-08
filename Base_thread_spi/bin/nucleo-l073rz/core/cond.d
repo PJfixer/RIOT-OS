@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/core/cond.o: \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/core/cond.o: \
  /home/etudiant/riot/RIOT/core/cond.c \
- /home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /home/etudiant/riot/RIOT/core/include/cond.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdbool.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stddef.h \
@@ -57,7 +57,7 @@
  /usr/arm-none-eabi/include/sys/stdio.h \
  /home/etudiant/riot/RIOT/core/include/thread.h
 
-/home/etudiant/riot/DII5_Riot/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_thread_spi/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /home/etudiant/riot/RIOT/core/include/cond.h:
 
