@@ -1,0 +1,1431 @@
+Membre d'archive inclu pour satisfaire la référence par fichier (symbole)
+
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                              /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o (main)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (board_init)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (kernel_init)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o) (thread_create)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (_assert_failure)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o) (assert_crash_message)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o) (sched_num_threads)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (real_exit)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o) (native_interrupts_enabled)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o) (thread_stack_init)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(tramp.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o) (_native_sig_leave_tramp)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o) (_native_LED_GREEN_ON)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (tty_uart_setup)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o) (pm_set_lowest)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o) (ps)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o) (shell_run)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o) (_shell_command_list)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o) (_reboot_handler)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o) (_ps_handler)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (periph_init)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o) (auto_init)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o) (native_async_read_setup)
+/usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o (__libc_csu_init)
+/usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+                              /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o (__stack_chk_fail_local)
+
+Bibliothèque requise inclue pour satisfaire la référence par fichier (symbole)
+
+libdl.so.2                    /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o) (dlsym@@GLIBC_2.0)
+libc.so.6                     /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o) (strsignal@@GLIBC_2.0)
+/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(tramp.o): dynamic relocation against `_native_saved_eip' in read-only section `.text'
+
+Sections d'entrée éliminées
+
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .group         0x0000000000000000        0x8 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .bss._native_unix_socket_path
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.clist_lpoprpush
+                0x0000000000000000       0x4a /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.pid_is_valid
+                0x0000000000000000       0x4f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_get
+                0x0000000000000000       0x62 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_getstatus
+                0x0000000000000000       0x5b /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_getname
+                0x0000000000000000       0x5b /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_sleep
+                0x0000000000000000       0x70 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_wakeup
+                0x0000000000000000       0xb4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_yield
+                0x0000000000000000       0x8a /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_add_to_list
+                0x0000000000000000       0xbe /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .openocd       0x0000000000000000        0x2 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .text._native_read
+                0x0000000000000000       0x6c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .text._native_writev
+                0x0000000000000000       0x6c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.print_thread_sigmask
+                0x0000000000000000      0x111 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.print_sigmasks
+                0x0000000000000000       0xab /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.native_print_signals
+                0x0000000000000000      0x1d4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.register_interrupt
+                0x0000000000000000       0x77 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .text.thread_print_stack
+                0x0000000000000000       0x2f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(tramp.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(tramp.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_OFF
+                0x0000000000000000       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_TOGGLE
+                0x0000000000000000       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_ON
+                0x0000000000000000       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_TOGGLE
+                0x0000000000000000       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .bss.uart_config
+                0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .bss.tty_fds   0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.io_signal_handler
+                0x0000000000000000       0xf0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.uart_init
+                0x0000000000000000      0x338 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.uart_write
+                0x0000000000000000       0x64 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.uart_poweron
+                0x0000000000000000       0x35 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.uart_poweroff
+                0x0000000000000000       0x35 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .group         0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .data          0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .bss           0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .bss._args     0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .bss._native_async_read_callbacks
+                0x0000000000000000        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text._async_io_isr
+                0x0000000000000000      0x1f9 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_setup
+                0x0000000000000000       0x4a /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_continue
+                0x0000000000000000       0x35 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .rodata        0x0000000000000000       0x98 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_add_handler
+                0x0000000000000000      0x105 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .group         0x0000000000000000        0x8 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .group         0x0000000000000000        0x8 /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+ .data          0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+
+Configuration mémoire
+
+Nom              Origine            Longueur           Attributs
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Script de l'éditeurs de liens and table de projection mémoire
+
+LOAD /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+LOAD /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+START GROUP
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/sys.a
+LOAD /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a
+LOAD /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/libm.so
+END GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/libdl.so
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/libc.so
+START GROUP
+LOAD /lib/i386-linux-gnu/libc.so.6
+LOAD /usr/lib/i386-linux-gnu/libc_nonshared.a
+LOAD /lib/i386-linux-gnu/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc.a
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc_s.so.1
+LOAD /usr/lib/gcc/i686-linux-gnu/7/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+LOAD /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000154                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000154       0x13
+ *(.interp)
+ .interp        0x0000000000000154       0x13 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x0000000000000168       0x20
+ .note.ABI-tag  0x0000000000000168       0x20 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000188       0x24 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000001ac       0xb4
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000001ac       0xb4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.dynsym         0x0000000000000260      0x360
+ *(.dynsym)
+ .dynsym        0x0000000000000260      0x360 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.dynstr         0x00000000000005c0      0x215
+ *(.dynstr)
+ .dynstr        0x00000000000005c0      0x215 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.gnu.version    0x00000000000007d6       0x6c
+ *(.gnu.version)
+ .gnu.version   0x00000000000007d6       0x6c /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x0000000000000844        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000844        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x0000000000000844       0x70
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000000844       0x70 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.rel.dyn        0x00000000000008b4      0x1c8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text.core_panic
+                0x00000000000008b4        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.text      0x00000000000008b4       0x38 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x00000000000008ec        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.ro.local.long_opts
+                0x00000000000008ec       0x40 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.ro.local.shell_commands.2103
+                0x000000000000092c       0x48 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.ro._shell_command_list
+                0x0000000000000974       0x30 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel.local
+                0x00000000000009a4        0x8 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.local.main_name
+                0x00000000000009ac        0x8 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.local.idle_name
+                0x00000000000009b4        0x8 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.local.state_names
+                0x00000000000009bc       0x60 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.data.rel.local.INCORRECT_QUOTING.2624
+                0x0000000000000a1c        0x8 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000000000a24       0x40 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x0000000000000a64        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.rel.ifunc)
+ .rel.ifunc     0x0000000000000a64        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.fini_array
+                0x0000000000000a64        0x8 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ .rel.init_array
+                0x0000000000000a6c       0x10 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.rel.plt        0x0000000000000a7c       0xd0
+ *(.rel.plt)
+ .rel.plt       0x0000000000000a7c       0xd0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.init           0x0000000000000b4c       0x23
+ *(SORT_NONE(.init))
+ .init          0x0000000000000b4c       0x1e /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+                0x0000000000000b4c                _init
+ .init          0x0000000000000b6a        0x5 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+
+.plt            0x0000000000000b70      0x1b0
+ *(.plt)
+ .plt           0x0000000000000b70      0x1b0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000000d20       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000000d20       0x10 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000000d30     0x4364
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000000000d30      0x315 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000001045       0x36 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                0x0000000000001045                _start
+ *fill*         0x000000000000107b        0x5 
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000000001080        0x4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+                0x0000000000001080                __x86.get_pc_thunk.bx
+ *fill*         0x0000000000001084        0xc 
+ .text          0x0000000000001090       0xe9 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000001179        0x4 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+                0x0000000000001179                __x86.get_pc_thunk.dx
+ .text._native_input
+                0x000000000000117d       0x9c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x000000000000117d                _native_input
+ .text._native_log_output
+                0x0000000000001219      0x162 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000001219                _native_log_output
+ .text.daemonize
+                0x000000000000137b      0x106 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x000000000000137b                daemonize
+ .text.filter_daemonize_argv
+                0x0000000000001481       0xba /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .text.usage_exit
+                0x000000000000153b       0x9d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x000000000000153b                usage_exit
+ .text.target_handler
+                0x00000000000015d8       0x76 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                0x00000000000015d8                target_handler
+ .text.custom_handler
+                0x000000000000164e       0x67 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                0x000000000000164e                custom_handler
+ .text.led0_handler
+                0x00000000000016b5       0xf6 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                0x00000000000016b5                led0_handler
+ .text.main     0x00000000000017ab       0x7b /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                0x00000000000017ab                main
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000001826        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                0x0000000000001826                __x86.get_pc_thunk.ax
+ .text.board_init
+                0x000000000000182a       0x50 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+                0x000000000000182a                board_init
+ .text.main_trampoline
+                0x000000000000187a       0x5a /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .text.idle_thread
+                0x00000000000018d4       0x2a /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .text.kernel_init
+                0x00000000000018fe       0x7d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+                0x00000000000018fe                kernel_init
+ .text.cib_init
+                0x000000000000197b       0x8b /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .text.thread_measure_stack_free
+                0x0000000000001a06       0x5c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+                0x0000000000001a06                thread_measure_stack_free
+ .text.thread_create
+                0x0000000000001a62      0x277 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+                0x0000000000001a62                thread_create
+ .text._assert_failure
+                0x0000000000001cd9       0x52 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+                0x0000000000001cd9                _assert_failure
+ .text.panic_arch
+                0x0000000000001d2b       0x2f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+                0x0000000000001d2b                panic_arch
+ .text.core_panic
+                0x0000000000001d5a       0xa1 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+                0x0000000000001d5a                core_panic
+ .text.bitarithm_lsb
+                0x0000000000001dfb       0x51 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .text.clist_rpush
+                0x0000000000001e4c       0x6c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .text.clist_lpop
+                0x0000000000001eb8       0x72 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .text.sched_run
+                0x0000000000001f2a       0xc3 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x0000000000001f2a                sched_run
+ .text.sched_set_status
+                0x0000000000001fed      0x11d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x0000000000001fed                sched_set_status
+ .text.sched_switch
+                0x000000000000210a       0x90 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000210a                sched_switch
+ .text.sched_task_exit
+                0x000000000000219a       0x67 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000219a                sched_task_exit
+ .text._native_syscall_enter
+                0x0000000000002201       0x43 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002201                _native_syscall_enter
+ .text._native_syscall_leave
+                0x0000000000002244      0x137 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002244                _native_syscall_leave
+ .text.malloc   0x000000000000237b       0xa8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000237b                malloc
+ .text.free     0x0000000000002423       0x55 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002423                free
+ .text.calloc   0x0000000000002478       0xb1 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002478                calloc
+ .text.realloc  0x0000000000002529       0x63 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002529                realloc
+ .text._native_write
+                0x000000000000258c       0x6c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000258c                _native_write
+ .text.putchar  0x00000000000025f8       0x4c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x00000000000025f8                putchar
+ .text.puts     0x0000000000002644       0x6d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002644                puts
+ .text.make_message
+                0x00000000000026b1       0xd8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x00000000000026b1                make_message
+ .text.printf   0x0000000000002789       0x5c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002789                printf
+ .text.vprintf  0x00000000000027e5       0x55 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x00000000000027e5                vprintf
+ .text.fprintf  0x000000000000283a       0x5b /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000283a                fprintf
+ .text.vfprintf
+                0x0000000000002895       0xb5 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002895                vfprintf
+ .text.vwarn    0x000000000000294a      0x14e /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000294a                vwarn
+ .text.vwarnx   0x0000000000002a98      0x103 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002a98                vwarnx
+ .text.verr     0x0000000000002b9b       0x4e /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002b9b                verr
+ .text.verrx    0x0000000000002be9       0x4e /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002be9                verrx
+ .text.warn     0x0000000000002c37       0x4d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002c37                warn
+ .text.warnx    0x0000000000002c84       0x4d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002c84                warnx
+ .text.err      0x0000000000002cd1       0x3f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002cd1                err
+ .text.errx     0x0000000000002d10       0x3f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002d10                errx
+ .text.getpid   0x0000000000002d4f       0x46 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002d4f                getpid
+ .text._native_init_syscalls
+                0x0000000000002d95      0x5af /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x0000000000002d95                _native_init_syscalls
+ .text.thread_isr_stack_pointer
+                0x0000000000003344       0x35 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003344                thread_isr_stack_pointer
+ .text.thread_isr_stack_start
+                0x0000000000003379       0x35 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003379                thread_isr_stack_start
+ .text.irq_disable
+                0x00000000000033ae       0x85 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000033ae                irq_disable
+ .text.irq_enable
+                0x0000000000003433       0xa5 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003433                irq_enable
+ .text.irq_restore
+                0x00000000000034d8       0x47 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000034d8                irq_restore
+ .text.irq_is_in
+                0x000000000000351f       0x35 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000351f                irq_is_in
+ .text._native_popsig
+                0x0000000000003554       0x9f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003554                _native_popsig
+ .text.native_irq_handler
+                0x00000000000035f3       0x8f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000035f3                native_irq_handler
+ .text.isr_set_sigmask
+                0x0000000000003682       0x60 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003682                isr_set_sigmask
+ .text.native_isr_entry
+                0x00000000000036e2      0x18f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000036e2                native_isr_entry
+ .text.set_signal_handler
+                0x0000000000003871      0x15f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003871                set_signal_handler
+ .text.unregister_interrupt
+                0x00000000000039d0       0x72 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000039d0                unregister_interrupt
+ .text.native_shutdown
+                0x0000000000003a42       0x4e /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .text.native_interrupt_init
+                0x0000000000003a90      0x3bc /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000003a90                native_interrupt_init
+ .text._native_mod_ctx_leave_sigh
+                0x0000000000003e4c       0x54 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .text.thread_isr_stack_usage
+                0x0000000000003ea0       0x33 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003ea0                thread_isr_stack_usage
+ .text.thread_stack_init
+                0x0000000000003ed3      0x106 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003ed3                thread_stack_init
+ .text.isr_cpu_switch_context_exit
+                0x0000000000003fd9       0x97 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000003fd9                isr_cpu_switch_context_exit
+ .text.cpu_switch_context_exit
+                0x0000000000004070       0xd1 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004070                cpu_switch_context_exit
+ .text.isr_thread_yield
+                0x0000000000004141       0x95 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000004141                isr_thread_yield
+ .text.thread_yield_higher
+                0x00000000000041d6      0x100 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x00000000000041d6                thread_yield_higher
+ .text.native_cpu_init
+                0x00000000000042d6       0xa2 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x00000000000042d6                native_cpu_init
+ .text          0x0000000000004378       0x3f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(tramp.o)
+                0x0000000000004378                _native_sig_leave_tramp
+                0x00000000000043a6                _native_sig_leave_handler
+ .text._native_LED_GREEN_ON
+                0x00000000000043b7       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+                0x00000000000043b7                _native_LED_GREEN_ON
+ .text._native_LED_RED_OFF
+                0x00000000000043ff       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+                0x00000000000043ff                _native_LED_RED_OFF
+ .text.tty_uart_setup
+                0x0000000000004447       0x5f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+                0x0000000000004447                tty_uart_setup
+ .text.pm_set_lowest
+                0x00000000000044a6       0x89 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+                0x00000000000044a6                pm_set_lowest
+ .text.pm_off   0x000000000000452f       0x3e /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+                0x000000000000452f                pm_off
+ .text.pm_reboot
+                0x000000000000456d       0x81 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+                0x000000000000456d                pm_reboot
+ .text.ps       0x00000000000045ee      0x1d1 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+                0x00000000000045ee                ps
+ .text.flush_if_needed
+                0x00000000000047bf       0x2f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.find_handler
+                0x00000000000047ee       0xa5 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.print_help
+                0x0000000000004893       0xcc /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.handle_input_line
+                0x000000000000495f      0x32f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.readline
+                0x0000000000004c8e      0x13a /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.print_prompt
+                0x0000000000004dc8       0x53 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .text.shell_run
+                0x0000000000004e1b       0x80 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+                0x0000000000004e1b                shell_run
+ .text._reboot_handler
+                0x0000000000004e9b       0x4c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+                0x0000000000004e9b                _reboot_handler
+ .text._ps_handler
+                0x0000000000004ee7       0x4c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+                0x0000000000004ee7                _ps_handler
+ .text.periph_init
+                0x0000000000004f33       0x2f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+                0x0000000000004f33                periph_init
+ .text.auto_init
+                0x0000000000004f62       0x2f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+                0x0000000000004f62                auto_init
+ .text.native_async_read_cleanup
+                0x0000000000004f91       0x74 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+                0x0000000000004f91                native_async_read_cleanup
+ *fill*         0x0000000000005005        0xb 
+ .text          0x0000000000005010       0x62 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x0000000000005010                __libc_csu_init
+                0x0000000000005070                __libc_csu_fini
+ *fill*         0x0000000000005072        0xe 
+ .text          0x0000000000005080       0x14 /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+                0x0000000000005080                __stack_chk_fail_local
+ *(.gnu.warning)
+
+.fini           0x0000000000005094       0x14
+ *(SORT_NONE(.fini))
+ .fini          0x0000000000005094        0xf /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crti.o
+                0x0000000000005094                _fini
+ .fini          0x00000000000050a3        0x5 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x00000000000050a8     0x102a
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x00000000000050a8        0x4 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                0x00000000000050a8                _IO_stdin_used
+ .rodata.short_opts
+                0x00000000000050ac        0xd /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ *fill*         0x00000000000050b9        0x3 
+ .rodata        0x00000000000050bc      0x4cb /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .rodata        0x0000000000005587       0x96 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ *fill*         0x000000000000561d        0x3 
+ .rodata        0x0000000000005620       0x1f /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ *fill*         0x000000000000563f        0x1 
+ .rodata        0x0000000000005640       0x44 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .rodata        0x0000000000005684        0xe /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .rodata        0x0000000000005692        0xa /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .rodata.assert_crash_message
+                0x000000000000569c       0x12 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+                0x000000000000569c                assert_crash_message
+ .rodata        0x00000000000056ae       0x2d /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ *fill*         0x00000000000056db        0x1 
+ .rodata        0x00000000000056dc      0x1b2 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ *fill*         0x000000000000588e        0x2 
+ .rodata        0x0000000000005890      0x3bc /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .rodata        0x0000000000005c4c      0x1a5 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .rodata        0x0000000000005df1       0x52 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ *fill*         0x0000000000005e43        0x1 
+ .rodata        0x0000000000005e44       0x5e /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ *fill*         0x0000000000005ea2        0x2 
+ .rodata        0x0000000000005ea4      0x163 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ *fill*         0x0000000000006007        0x1 
+ .rodata        0x0000000000006008       0x84 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .rodata        0x000000000000608c       0x46 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000000060d4      0x31c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000000060d4      0x31c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x00000000000060d4                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00000000000063f0      0xd58
+ *(.eh_frame)
+ .eh_frame      0x00000000000063f0       0x3c /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                                         0x40 (taille avant relaxe)
+ .eh_frame      0x000000000000642c       0x14 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                                         0x2c (taille avant relaxe)
+ .eh_frame      0x0000000000006440       0xd0 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                                         0xfc (taille avant relaxe)
+ .eh_frame      0x0000000000006510       0xb4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+                                         0xe0 (taille avant relaxe)
+ .eh_frame      0x00000000000065c4       0x24 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+                                         0x50 (taille avant relaxe)
+ .eh_frame      0x00000000000065e8       0x5c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+                                         0x88 (taille avant relaxe)
+ .eh_frame      0x0000000000006644       0x68 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+                                        0x1dc (taille avant relaxe)
+ .eh_frame      0x00000000000066ac       0x1c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+                                         0x48 (taille avant relaxe)
+ .eh_frame      0x00000000000066c8       0x3c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+                                         0x7c (taille avant relaxe)
+ .eh_frame      0x0000000000006704       0xe8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                                        0x128 (taille avant relaxe)
+ .eh_frame      0x00000000000067ec      0x334 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                                        0x3bc (taille avant relaxe)
+ .eh_frame      0x0000000000006b20      0x200 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                                        0x2e0 (taille avant relaxe)
+ .eh_frame      0x0000000000006d20      0x108 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                                        0x168 (taille avant relaxe)
+ .eh_frame      0x0000000000006e28       0x48 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+                                        0x104 (taille avant relaxe)
+ .eh_frame      0x0000000000006e70       0x24 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+                                        0x110 (taille avant relaxe)
+ .eh_frame      0x0000000000006e94       0x5c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+                                         0x88 (taille avant relaxe)
+ .eh_frame      0x0000000000006ef0       0x30 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+                                         0x5c (taille avant relaxe)
+ .eh_frame      0x0000000000006f20       0xfc /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+                                        0x13c (taille avant relaxe)
+ .eh_frame      0x000000000000701c       0x24 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+                                         0x50 (taille avant relaxe)
+ .eh_frame      0x0000000000007040       0x24 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+                                         0x50 (taille avant relaxe)
+ .eh_frame      0x0000000000007064       0x20 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+                                         0x4c (taille avant relaxe)
+ .eh_frame      0x0000000000007084       0x20 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+                                         0x4c (taille avant relaxe)
+ .eh_frame      0x00000000000070a4       0x24 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+                                         0xfc (taille avant relaxe)
+ .eh_frame      0x00000000000070c8       0x60 /usr/lib/i386-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x8c (taille avant relaxe)
+ .eh_frame      0x0000000000007128       0x1c /usr/lib/i386-linux-gnu/libc_nonshared.a(stack_chk_fail_local.oS)
+                                         0x48 (taille avant relaxe)
+ .eh_frame      0x0000000000007144        0x4 /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000008d54                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000008d54        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000008d54        0x8
+                0x0000000000008d54                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000008d54        0x4 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .init_array    0x0000000000008d58        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000008d5c                PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000008d5c        0x4
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000008d5c        0x4 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x0000000000008d60      0x104
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local.long_opts
+                0x0000000000008d60       0x90 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ *fill*         0x0000000000008df0       0x10 
+ .data.rel.ro.local.shell_commands.2103
+                0x0000000000008e00       0x30 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000008e30        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *fill*         0x0000000000008e30       0x10 
+ .data.rel.ro._shell_command_list
+                0x0000000000008e40       0x24 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+                0x0000000000008e40                _shell_command_list
+
+.dynamic        0x0000000000008e64      0x108
+ *(.dynamic)
+ .dynamic       0x0000000000008e64      0x108 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                0x0000000000008e64                _DYNAMIC
+
+.got            0x0000000000008f6c       0x94
+ *(.got.plt)
+ .got.plt       0x0000000000008f6c       0x74 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+                0x0000000000008f6c                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000008fe0       0x20 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000009000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000009000       0x54
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rel.local
+                0x0000000000009000        0x4 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+                0x0000000000009000                __dso_handle
+ .data.rel.local.main_name
+                0x0000000000009004        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+                0x0000000000009004                main_name
+ .data.rel.local.idle_name
+                0x0000000000009008        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+                0x0000000000009008                idle_name
+ *fill*         0x000000000000900c       0x14 
+ .data.rel.local.state_names
+                0x0000000000009020       0x30 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .data.rel.local.INCORRECT_QUOTING.2624
+                0x0000000000009050        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+
+.tm_clone_table
+                0x0000000000009054        0x0
+ .tm_clone_table
+                0x0000000000009054        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ .tm_clone_table
+                0x0000000000009054        0x0 /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000009054                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000009054                . = .
+                0x0000000000009054                __bss_start = .
+
+.bss            0x0000000000009060     0xba30
+ *(.dynbss)
+ .dynbss        0x0000000000009060        0x0 /usr/lib/gcc/i686-linux-gnu/7/../../../i386-linux-gnu/Scrt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000009060        0x1 /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+ *fill*         0x0000000000009061        0x3 
+ .bss._native_null_in_pipe
+                0x0000000000009064        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000009064                _native_null_in_pipe
+ .bss._native_null_out_file
+                0x000000000000906c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x000000000000906c                _native_null_out_file
+ .bss._progname
+                0x0000000000009070        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000009070                _progname
+ .bss._native_argv
+                0x0000000000009074        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000009074                _native_argv
+ .bss._native_pid
+                0x0000000000009078        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000009078                _native_pid
+ .bss._native_id
+                0x000000000000907c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x000000000000907c                _native_id
+ .bss._native_rng_seed
+                0x0000000000009080        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000009080                _native_rng_seed
+ .bss._native_rng_mode
+                0x0000000000009084        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+                0x0000000000009084                _native_rng_mode
+ *fill*         0x0000000000009088       0x18 
+ .bss.main_stack
+                0x00000000000090a0     0x3000 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .bss.idle_stack
+                0x000000000000c0a0     0x2000 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .bss.crashed   0x000000000000e0a0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .bss.sched_num_threads
+                0x000000000000e0a4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000e0a4                sched_num_threads
+ .bss.sched_context_switch_request
+                0x000000000000e0a8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000e0a8                sched_context_switch_request
+ *fill*         0x000000000000e0ac       0x14 
+ .bss.sched_threads
+                0x000000000000e0c0       0x84 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000e0c0                sched_threads
+ .bss.sched_active_thread
+                0x000000000000e144        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000e144                sched_active_thread
+ .bss.sched_active_pid
+                0x000000000000e148        0x2 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000e148                sched_active_pid
+ *fill*         0x000000000000e14a       0x16 
+ .bss.sched_runqueues
+                0x000000000000e160       0x40 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+                0x000000000000e160                sched_runqueues
+ .bss.runqueue_bitcache
+                0x000000000000e1a0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .bss.real_read
+                0x000000000000e1a4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1a4                real_read
+ .bss.real_write
+                0x000000000000e1a8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1a8                real_write
+ .bss.real_fread
+                0x000000000000e1ac        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1ac                real_fread
+ .bss.real_clearerr
+                0x000000000000e1b0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1b0                real_clearerr
+ .bss.real_exit
+                0x000000000000e1b4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1b4                real_exit
+ .bss.real_free
+                0x000000000000e1b8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1b8                real_free
+ .bss.real_malloc
+                0x000000000000e1bc        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1bc                real_malloc
+ .bss.real_calloc
+                0x000000000000e1c0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1c0                real_calloc
+ .bss.real_realloc
+                0x000000000000e1c4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1c4                real_realloc
+ .bss.real_freeaddrinfo
+                0x000000000000e1c8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1c8                real_freeaddrinfo
+ .bss.real_freeifaddrs
+                0x000000000000e1cc        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1cc                real_freeifaddrs
+ .bss.real_srandom
+                0x000000000000e1d0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1d0                real_srandom
+ .bss.real_accept
+                0x000000000000e1d4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1d4                real_accept
+ .bss.real_bind
+                0x000000000000e1d8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1d8                real_bind
+ .bss.real_connect
+                0x000000000000e1dc        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1dc                real_connect
+ .bss.real_printf
+                0x000000000000e1e0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1e0                real_printf
+ .bss.real_getaddrinfo
+                0x000000000000e1e4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1e4                real_getaddrinfo
+ .bss.real_getifaddrs
+                0x000000000000e1e8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1e8                real_getifaddrs
+ .bss.real_gettimeofday
+                0x000000000000e1ec        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1ec                real_gettimeofday
+ .bss.real_getpid
+                0x000000000000e1f0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1f0                real_getpid
+ .bss.real_chdir
+                0x000000000000e1f4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1f4                real_chdir
+ .bss.real_close
+                0x000000000000e1f8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1f8                real_close
+ .bss.real_fcntl
+                0x000000000000e1fc        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e1fc                real_fcntl
+ .bss.real_creat
+                0x000000000000e200        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e200                real_creat
+ .bss.real_dup2
+                0x000000000000e204        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e204                real_dup2
+ .bss.real_execve
+                0x000000000000e208        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e208                real_execve
+ .bss.real_fork
+                0x000000000000e20c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e20c                real_fork
+ .bss.real_feof
+                0x000000000000e210        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e210                real_feof
+ .bss.real_ferror
+                0x000000000000e214        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e214                real_ferror
+ .bss.real_listen
+                0x000000000000e218        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e218                real_listen
+ .bss.real_ioctl
+                0x000000000000e21c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e21c                real_ioctl
+ .bss.real_open
+                0x000000000000e220        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e220                real_open
+ .bss.real_pause
+                0x000000000000e224        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e224                real_pause
+ .bss.real_pipe
+                0x000000000000e228        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e228                real_pipe
+ .bss.real_select
+                0x000000000000e22c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e22c                real_select
+ .bss.real_setitimer
+                0x000000000000e230        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e230                real_setitimer
+ .bss.real_setsid
+                0x000000000000e234        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e234                real_setsid
+ .bss.real_setsockopt
+                0x000000000000e238        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e238                real_setsockopt
+ .bss.real_socket
+                0x000000000000e23c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e23c                real_socket
+ .bss.real_unlink
+                0x000000000000e240        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e240                real_unlink
+ .bss.real_random
+                0x000000000000e244        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e244                real_random
+ .bss.real_gai_strerror
+                0x000000000000e248        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e248                real_gai_strerror
+ .bss.real_fopen
+                0x000000000000e24c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e24c                real_fopen
+ .bss.real_fclose
+                0x000000000000e250        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e250                real_fclose
+ .bss.real_fseek
+                0x000000000000e254        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e254                real_fseek
+ .bss.real_fputc
+                0x000000000000e258        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e258                real_fputc
+ .bss.real_fgetc
+                0x000000000000e25c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e25c                real_fgetc
+ .bss.real_umask
+                0x000000000000e260        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e260                real_umask
+ .bss.real_writev
+                0x000000000000e264        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e264                real_writev
+ .bss.real_clock_gettime
+                0x000000000000e268        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e268                real_clock_gettime
+ .bss._native_in_malloc
+                0x000000000000e26c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e26c                _native_in_malloc
+ .bss._native_in_calloc
+                0x000000000000e270        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+                0x000000000000e270                _native_in_calloc
+ .bss.native_interrupts_enabled
+                0x000000000000e274        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e274                native_interrupts_enabled
+ .bss._native_in_isr
+                0x000000000000e278        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e278                _native_in_isr
+ .bss._native_in_syscall
+                0x000000000000e27c        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e27c                _native_in_syscall
+ .bss._native_sig_set
+                0x000000000000e280       0x80 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .bss._native_sig_set_dint
+                0x000000000000e300       0x80 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .bss.__isr_stack
+                0x000000000000e380     0x2000 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x000000000000e380                __isr_stack
+ .bss.native_isr_context
+                0x0000000000010380      0x15c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000010380                native_isr_context
+ .bss._native_cur_ctx
+                0x00000000000104dc        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000104dc                _native_cur_ctx
+ .bss._native_isr_ctx
+                0x00000000000104e0        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000104e0                _native_isr_ctx
+ .bss._native_saved_eip
+                0x00000000000104e4        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000104e4                _native_saved_eip
+ .bss._native_sigpend
+                0x00000000000104e8        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000104e8                _native_sigpend
+ .bss._sig_pipefd
+                0x00000000000104ec        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x00000000000104ec                _sig_pipefd
+ *fill*         0x00000000000104f4        0xc 
+ .bss.native_irq_handlers
+                0x0000000000010500      0x3fc /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x00000000000108fc        0x4 
+ .bss.sigalt_stk
+                0x0000000000010900     0x2000 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+                0x0000000000010900                sigalt_stk
+ .bss.sigstk.5127
+                0x0000000000012900        0xc /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x000000000001290c       0x14 
+ .bss.end_context
+                0x0000000000012920      0x15c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000012920                end_context
+ *fill*         0x0000000000012a7c        0x4 
+ .bss.__end_stack
+                0x0000000000012a80     0x2000 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+                0x0000000000012a80                __end_stack
+ .bss.tty_device_filenames
+                0x0000000000014a80        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .bss._next_index
+                0x0000000000014a84        0x4 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .bss._fds      0x0000000000014a88        0x8 /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ *(COMMON)
+                0x0000000000014a90                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000014a90                . = ALIGN (0x4)
+                0x0000000000014a90                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000014a90                . = ALIGN (0x4)
+                0x0000000000014a90                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000014a90                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/i686-linux-gnu/7/crtbeginS.o
+                                         0x2c (taille avant relaxe)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu/startup.o
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/application_helloworld.a(main.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/board.a(board_init.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(kernel_init.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(thread.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(assert.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(panic.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/core.a(sched.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(syscalls.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(irq_cpu.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(native_cpu.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/native-drivers.a(native-led.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(uart.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph.a(pm.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/ps.a(ps.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell.a(shell.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(shell_commands.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_sys.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/shell_commands.a(sc_ps.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/periph_common.a(init.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/auto_init.a(auto_init.o)
+ .comment       0x000000000000002b       0x2c /home/etudiant/riot/DII5_Riot/Base_shell/bin/native/cpu.a(async_read.o)
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/i686-linux-gnu/7/crtendS.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/etudiant/riot/DII5_Riot/Base_shell/bin/native/helloworld.elf elf32-i386)
