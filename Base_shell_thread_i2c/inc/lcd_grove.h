@@ -58,7 +58,6 @@ int lcd_putch(i2c_t bus,unsigned char Car);
 int lcd_puts(i2c_t bus,unsigned char *pCar);
 
 
-void setRGB(i2c_t bus,unsigned char r, unsigned char g, unsigned char b);               // set rgb
 
-void lcd_SendStr(i2c_t bus,const char * s);
+
 #endif

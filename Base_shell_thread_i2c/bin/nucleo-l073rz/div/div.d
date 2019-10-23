@@ -1,6 +1,6 @@
-/home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/div/div.o: \
- /home/etudiant/RIOT/sys/div/div.c \
- /home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/div/div.o: \
+ /home/etudiant/riot/RIOT/sys/div/div.c \
+ /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
@@ -24,12 +24,12 @@
  /usr/arm-none-eabi/include/sys/_pthreadtypes.h \
  /usr/arm-none-eabi/include/machine/types.h \
  /usr/arm-none-eabi/include/sys/stdio.h \
- /home/etudiant/RIOT/sys/include/div.h \
- /home/etudiant/RIOT/core/include/assert.h \
- /home/etudiant/RIOT/core/include/panic.h \
- /home/etudiant/RIOT/core/include/kernel_defines.h
+ /home/etudiant/riot/RIOT/sys/include/div.h \
+ /home/etudiant/riot/RIOT/core/include/assert.h \
+ /home/etudiant/riot/RIOT/core/include/panic.h \
+ /home/etudiant/riot/RIOT/core/include/kernel_defines.h
 
-/home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
 
@@ -79,10 +79,10 @@
 
 /usr/arm-none-eabi/include/sys/stdio.h:
 
-/home/etudiant/RIOT/sys/include/div.h:
+/home/etudiant/riot/RIOT/sys/include/div.h:
 
-/home/etudiant/RIOT/core/include/assert.h:
+/home/etudiant/riot/RIOT/core/include/assert.h:
 
-/home/etudiant/RIOT/core/include/panic.h:
+/home/etudiant/riot/RIOT/core/include/panic.h:
 
-/home/etudiant/RIOT/core/include/kernel_defines.h:
+/home/etudiant/riot/RIOT/core/include/kernel_defines.h:
