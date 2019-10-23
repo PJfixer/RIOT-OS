@@ -2,7 +2,7 @@ APPLICATION=helloworld
 INCLUDES += -I$(CURDIR)/inc
 DIRS += $(CURDIR)/src
 BOARD ?= native
-USEMODULE += shell shell_commands ps xtimer  periph_i2c lcd_grove 
+USEMODULE += shell shell_commands ps xtimer  periph_i2c lcd_grove  periph_hwrng
 FEATURES_REQUIRED += periph_i2c
 RIOTBASE ?= $(CURDIR)/../../../RIOT
 

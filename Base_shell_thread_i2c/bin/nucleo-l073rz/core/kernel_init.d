@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/core/kernel_init.o: \
- /home/etudiant/riot/RIOT/core/kernel_init.c \
- /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+/home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/core/kernel_init.o: \
+ /home/etudiant/RIOT/core/kernel_init.c \
+ /home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h \
  /usr/arm-none-eabi/include/stdint.h \
  /usr/arm-none-eabi/include/machine/_default_types.h \
@@ -20,16 +20,16 @@
  /usr/arm-none-eabi/include/sys/_types.h \
  /usr/arm-none-eabi/include/machine/_types.h \
  /usr/arm-none-eabi/include/sys/lock.h \
- /home/etudiant/riot/RIOT/core/include/kernel_init.h \
- /home/etudiant/riot/RIOT/core/include/thread.h \
- /home/etudiant/riot/RIOT/core/include/clist.h \
- /home/etudiant/riot/RIOT/core/include/list.h \
- /home/etudiant/riot/RIOT/core/include/cib.h \
- /home/etudiant/riot/RIOT/core/include/assert.h \
- /home/etudiant/riot/RIOT/core/include/panic.h \
- /home/etudiant/riot/RIOT/core/include/kernel_defines.h \
- /home/etudiant/riot/RIOT/core/include/msg.h \
- /home/etudiant/riot/RIOT/core/include/kernel_types.h \
+ /home/etudiant/RIOT/core/include/kernel_init.h \
+ /home/etudiant/RIOT/core/include/thread.h \
+ /home/etudiant/RIOT/core/include/clist.h \
+ /home/etudiant/RIOT/core/include/list.h \
+ /home/etudiant/RIOT/core/include/cib.h \
+ /home/etudiant/RIOT/core/include/assert.h \
+ /home/etudiant/RIOT/core/include/panic.h \
+ /home/etudiant/RIOT/core/include/kernel_defines.h \
+ /home/etudiant/RIOT/core/include/msg.h \
+ /home/etudiant/RIOT/core/include/kernel_types.h \
  /usr/arm-none-eabi/include/inttypes.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/limits.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include-fixed/syslimits.h \
@@ -38,34 +38,34 @@
  /usr/arm-none-eabi/include/sys/types.h \
  /usr/arm-none-eabi/include/sys/_pthreadtypes.h \
  /usr/arm-none-eabi/include/machine/types.h \
- /home/etudiant/riot/RIOT/cpu/stm32l0/include/cpu_conf.h \
- /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
- /home/etudiant/riot/RIOT/cpu/stm32l0/include/vendor/stm32l0xx.h \
- /home/etudiant/riot/RIOT/cpu/stm32l0/include/vendor/stm32l073xx.h \
- /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/core_cm0plus.h \
- /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h \
- /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
- /home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h \
- /home/etudiant/riot/RIOT/core/include/sched.h \
- /home/etudiant/riot/RIOT/core/include/bitarithm.h \
- /home/etudiant/riot/RIOT/core/include/native_sched.h \
- /home/etudiant/riot/RIOT/core/include/irq.h \
- /home/etudiant/riot/RIOT/core/include/log.h \
+ /home/etudiant/RIOT/cpu/stm32l0/include/cpu_conf.h \
+ /home/etudiant/RIOT/cpu/cortexm_common/include/cpu_conf_common.h \
+ /home/etudiant/RIOT/cpu/stm32l0/include/vendor/stm32l0xx.h \
+ /home/etudiant/RIOT/cpu/stm32l0/include/vendor/stm32l073xx.h \
+ /home/etudiant/RIOT/cpu/cortexm_common/include/vendor/core_cm0plus.h \
+ /home/etudiant/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h \
+ /home/etudiant/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h \
+ /home/etudiant/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h \
+ /home/etudiant/RIOT/core/include/sched.h \
+ /home/etudiant/RIOT/core/include/bitarithm.h \
+ /home/etudiant/RIOT/core/include/native_sched.h \
+ /home/etudiant/RIOT/core/include/irq.h \
+ /home/etudiant/RIOT/core/include/log.h \
  /usr/arm-none-eabi/include/stdio.h \
  /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdarg.h \
  /usr/arm-none-eabi/include/sys/stdio.h \
- /home/etudiant/riot/RIOT/drivers/include/periph/pm.h \
- /home/etudiant/riot/RIOT/core/include/assert.h \
- /home/etudiant/riot/RIOT/cpu/stm32l0/include/periph_cpu.h \
- /home/etudiant/riot/RIOT/cpu/stm32_common/include/periph_cpu_common.h \
- /home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h \
- /home/etudiant/riot/RIOT/core/include/sched.h \
- /home/etudiant/riot/RIOT/sys/include/pm_layered.h \
- /home/etudiant/riot/RIOT/core/include/debug.h \
- /home/etudiant/riot/RIOT/core/include/thread.h \
- /home/etudiant/riot/RIOT/sys/include/auto_init.h
+ /home/etudiant/RIOT/drivers/include/periph/pm.h \
+ /home/etudiant/RIOT/core/include/assert.h \
+ /home/etudiant/RIOT/cpu/stm32l0/include/periph_cpu.h \
+ /home/etudiant/RIOT/cpu/stm32_common/include/periph_cpu_common.h \
+ /home/etudiant/RIOT/cpu/cortexm_common/include/cpu.h \
+ /home/etudiant/RIOT/core/include/sched.h \
+ /home/etudiant/RIOT/sys/include/pm_layered.h \
+ /home/etudiant/RIOT/core/include/debug.h \
+ /home/etudiant/RIOT/core/include/thread.h \
+ /home/etudiant/RIOT/sys/include/auto_init.h
 
-/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/lib/gcc/arm-none-eabi/7.3.1/include/stdint.h:
 
@@ -105,25 +105,25 @@
 
 /usr/arm-none-eabi/include/sys/lock.h:
 
-/home/etudiant/riot/RIOT/core/include/kernel_init.h:
+/home/etudiant/RIOT/core/include/kernel_init.h:
 
-/home/etudiant/riot/RIOT/core/include/thread.h:
+/home/etudiant/RIOT/core/include/thread.h:
 
-/home/etudiant/riot/RIOT/core/include/clist.h:
+/home/etudiant/RIOT/core/include/clist.h:
 
-/home/etudiant/riot/RIOT/core/include/list.h:
+/home/etudiant/RIOT/core/include/list.h:
 
-/home/etudiant/riot/RIOT/core/include/cib.h:
+/home/etudiant/RIOT/core/include/cib.h:
 
-/home/etudiant/riot/RIOT/core/include/assert.h:
+/home/etudiant/RIOT/core/include/assert.h:
 
-/home/etudiant/riot/RIOT/core/include/panic.h:
+/home/etudiant/RIOT/core/include/panic.h:
 
-/home/etudiant/riot/RIOT/core/include/kernel_defines.h:
+/home/etudiant/RIOT/core/include/kernel_defines.h:
 
-/home/etudiant/riot/RIOT/core/include/msg.h:
+/home/etudiant/RIOT/core/include/msg.h:
 
-/home/etudiant/riot/RIOT/core/include/kernel_types.h:
+/home/etudiant/RIOT/core/include/kernel_types.h:
 
 /usr/arm-none-eabi/include/inttypes.h:
 
@@ -143,31 +143,31 @@
 
 /usr/arm-none-eabi/include/machine/types.h:
 
-/home/etudiant/riot/RIOT/cpu/stm32l0/include/cpu_conf.h:
+/home/etudiant/RIOT/cpu/stm32l0/include/cpu_conf.h:
 
-/home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu_conf_common.h:
+/home/etudiant/RIOT/cpu/cortexm_common/include/cpu_conf_common.h:
 
-/home/etudiant/riot/RIOT/cpu/stm32l0/include/vendor/stm32l0xx.h:
+/home/etudiant/RIOT/cpu/stm32l0/include/vendor/stm32l0xx.h:
 
-/home/etudiant/riot/RIOT/cpu/stm32l0/include/vendor/stm32l073xx.h:
+/home/etudiant/RIOT/cpu/stm32l0/include/vendor/stm32l073xx.h:
 
-/home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/core_cm0plus.h:
+/home/etudiant/RIOT/cpu/cortexm_common/include/vendor/core_cm0plus.h:
 
-/home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h:
+/home/etudiant/RIOT/cpu/cortexm_common/include/vendor/cmsis_version.h:
 
-/home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h:
+/home/etudiant/RIOT/cpu/cortexm_common/include/vendor/cmsis_compiler.h:
 
-/home/etudiant/riot/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h:
+/home/etudiant/RIOT/cpu/cortexm_common/include/vendor/cmsis_gcc.h:
 
-/home/etudiant/riot/RIOT/core/include/sched.h:
+/home/etudiant/RIOT/core/include/sched.h:
 
-/home/etudiant/riot/RIOT/core/include/bitarithm.h:
+/home/etudiant/RIOT/core/include/bitarithm.h:
 
-/home/etudiant/riot/RIOT/core/include/native_sched.h:
+/home/etudiant/RIOT/core/include/native_sched.h:
 
-/home/etudiant/riot/RIOT/core/include/irq.h:
+/home/etudiant/RIOT/core/include/irq.h:
 
-/home/etudiant/riot/RIOT/core/include/log.h:
+/home/etudiant/RIOT/core/include/log.h:
 
 /usr/arm-none-eabi/include/stdio.h:
 
@@ -175,22 +175,22 @@
 
 /usr/arm-none-eabi/include/sys/stdio.h:
 
-/home/etudiant/riot/RIOT/drivers/include/periph/pm.h:
+/home/etudiant/RIOT/drivers/include/periph/pm.h:
 
-/home/etudiant/riot/RIOT/core/include/assert.h:
+/home/etudiant/RIOT/core/include/assert.h:
 
-/home/etudiant/riot/RIOT/cpu/stm32l0/include/periph_cpu.h:
+/home/etudiant/RIOT/cpu/stm32l0/include/periph_cpu.h:
 
-/home/etudiant/riot/RIOT/cpu/stm32_common/include/periph_cpu_common.h:
+/home/etudiant/RIOT/cpu/stm32_common/include/periph_cpu_common.h:
 
-/home/etudiant/riot/RIOT/cpu/cortexm_common/include/cpu.h:
+/home/etudiant/RIOT/cpu/cortexm_common/include/cpu.h:
 
-/home/etudiant/riot/RIOT/core/include/sched.h:
+/home/etudiant/RIOT/core/include/sched.h:
 
-/home/etudiant/riot/RIOT/sys/include/pm_layered.h:
+/home/etudiant/RIOT/sys/include/pm_layered.h:
 
-/home/etudiant/riot/RIOT/core/include/debug.h:
+/home/etudiant/RIOT/core/include/debug.h:
 
-/home/etudiant/riot/RIOT/core/include/thread.h:
+/home/etudiant/RIOT/core/include/thread.h:
 
-/home/etudiant/riot/RIOT/sys/include/auto_init.h:
+/home/etudiant/RIOT/sys/include/auto_init.h:

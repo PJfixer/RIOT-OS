@@ -1,6 +1,6 @@
-/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/shell/shell.o: \
- /home/etudiant/riot/RIOT/sys/shell/shell.c \
- /home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h \
+/home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/shell/shell.o: \
+ /home/etudiant/RIOT/sys/shell/shell.c \
+ /home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h \
  /usr/arm-none-eabi/include/string.h /usr/arm-none-eabi/include/_ansi.h \
  /usr/arm-none-eabi/include/newlib-nano/newlib.h \
  /usr/arm-none-eabi/include/_newlib_version.h \
@@ -28,12 +28,12 @@
  /usr/arm-none-eabi/include/sys/_intsup.h \
  /usr/arm-none-eabi/include/stdlib.h \
  /usr/arm-none-eabi/include/machine/stdlib.h \
- /home/etudiant/riot/RIOT/sys/include/shell.h \
- /home/etudiant/riot/RIOT/core/include/kernel_defines.h \
- /home/etudiant/riot/RIOT/sys/include/shell_commands.h \
- /home/etudiant/riot/RIOT/sys/include/shell.h
+ /home/etudiant/RIOT/sys/include/shell.h \
+ /home/etudiant/RIOT/core/include/kernel_defines.h \
+ /home/etudiant/RIOT/sys/include/shell_commands.h \
+ /home/etudiant/RIOT/sys/include/shell.h
 
-/home/etudiant/riot/DII5_Riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h:
+/home/etudiant/riot/RIOT-OS/Base_shell_thread_i2c/bin/nucleo-l073rz/riotbuild/riotbuild.h:
 
 /usr/arm-none-eabi/include/string.h:
 
@@ -91,10 +91,10 @@
 
 /usr/arm-none-eabi/include/machine/stdlib.h:
 
-/home/etudiant/riot/RIOT/sys/include/shell.h:
+/home/etudiant/RIOT/sys/include/shell.h:
 
-/home/etudiant/riot/RIOT/core/include/kernel_defines.h:
+/home/etudiant/RIOT/core/include/kernel_defines.h:
 
-/home/etudiant/riot/RIOT/sys/include/shell_commands.h:
+/home/etudiant/RIOT/sys/include/shell_commands.h:
 
-/home/etudiant/riot/RIOT/sys/include/shell.h:
+/home/etudiant/RIOT/sys/include/shell.h:

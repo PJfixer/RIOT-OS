@@ -16,16 +16,18 @@ int lcd_sendcmd(i2c_t bus,unsigned char cmd)
 {
 	if(i2c_acquire(bus) != 0) // je  chope le bus
 	{
-		i2c_release(bus);
+		printf("lcd_sendcmd : acquire i2c fail \n");
+		i2c_release(bus);  // si ca foire
 		return -1;
 	}
 	if(i2c_write_reg(bus,LCD_ADDR,CMD_REG,cmd,0) != 0) // jecris ma commande
 	{
+		printf("lcd_sendcmd : Write fail \n");
 		i2c_release(bus);
 		return -1;
 	}
 	i2c_release (bus);
-	
+	printf("lcd_sendcmd : succes \n");
 	return 0;
 }
 
@@ -33,7 +35,7 @@ int lcd_sendByte(i2c_t bus,unsigned char data)
 {
 	if(i2c_acquire(bus) != 0) // je  chope le bus
 	{
-		i2c_release(bus);
+		i2c_release(bus);  // si ca foire
 		return -1;
 	}
 	if(i2c_write_reg(bus,LCD_ADDR,DATA_REG,data,0) != 0) // jecris ma data
@@ -74,7 +76,7 @@ if (Res != 0)
 Res = i2c_write_reg(bus,BCK_ADDR,0x08,0xAA,0);
 if (Res != 0) 
 	return -1;
-Res = i2c_release(bus);
+i2c_release(bus);
 if (Res != 0) 
 	return -1;
 
@@ -91,3 +93,24 @@ int lcd_displayOn(i2c_t bus){
 int	lcd_clear(i2c_t bus){
 	return lcd_sendcmd(bus,LCD_CLEARDISPLAY);
 	}
+	
+	
+	
+	
+void setRGB(i2c_t bus,unsigned char r, unsigned char g, unsigned char b)
+{
+	i2c_acquire(bus);
+	i2c_write_reg(bus,BCK_ADDR,RED_REG,r,0);
+	i2c_write_reg(bus,BCK_ADDR,GREEN_REG,g,0);
+	i2c_write_reg(bus,BCK_ADDR,BLUE_REG,b,0);
+	i2c_release(bus);
+   
+}
+
+void lcd_SendStr(i2c_t bus,const char * s)
+{
+    while(*s)
+    {
+            lcd_sendByte(bus,*s++);
+	}
+}
